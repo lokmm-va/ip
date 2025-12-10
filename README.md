@@ -33,7 +33,7 @@
 curl -X POST http://localhost:3000/api/v1/plants \
   -H "Content-Type: application/json" \
   -d '{
-    "name": "Монстера",
-    "light": "Умеренный",
-    "watering": "Раз в неделю"
+    "name": "Кактус",       - название
+    "light": "Любит свет",  - освещение
+    "watering": "Редкий"    - полив
   }'
